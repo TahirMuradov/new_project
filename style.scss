@@ -1,0 +1,123 @@
+
+h1{
+ font-family: 'Roboto', sans-serif;
+}
+span{
+
+    font-family: 'Roboto', sans-serif;
+   
+}
+p{
+  font-family: 'Roboto', sans-serif;
+ }
+.page_titel {
+  width: 100%;
+  height: 35vh;
+  position: relative;
+  background-image: url(./img/img1.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  .titel_h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+}
+#page_by {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  .page_titl {
+    p {
+      color: #ffffff61;
+    }
+  }
+  .bdy-row {
+     background-color: #141414;
+   
+    .row-2 {
+      .cl-8 {
+        .date {
+          color: #ffffffb1;
+        }
+        .name {
+            transition: 1s ease;
+          color: #fff;
+          &:hover {
+            color: #a72cff;
+            cursor: pointer;
+          }
+        }
+        .content {
+          color: #fff;
+        }
+        .play_icons {
+          padding: 15px;
+          border-radius:1.25rem;
+          cursor: pointer;
+          background-color: #a72cff;
+           color: #000;
+           transition: 1s ease-in;
+           &:hover{
+            background-color: aqua;
+           }
+        }
+      }
+    }
+  }
+  .lead-more{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:center ;
+    padding: 20px;
+    .lead_btn{
+        text-decoration: none;
+        color: #fff;
+        padding: 14px;         
+        background-color: #4d1646;
+        border-radius: 1.25rem;
+        text-align: center;
+        transition: 0.5s;
+        &:hover{
+            background-color: aqua;
+        }
+
+    }
+  }
+}
+
+
+
+@media (min-width: 576px) { 
+.lead-more{    
+    .lead_btn{
+    width:50%;
+} }
+}
+
+
+@media (min-width: 768px) { 
+
+ }
+
+@media (min-width: 992px) { 
+    .lead-more{
+        .lead_btn{
+            width: 20%;
+        }
+    }
+}
+
+
+@media (min-width: 1200px) { 
+.lead-more{
+    .lead_btn{
+        width: 20%;
+    }
+}
+}
+
